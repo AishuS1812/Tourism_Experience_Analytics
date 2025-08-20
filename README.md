@@ -1,67 +1,19 @@
-# Tourism_Experience_Analytics
-# 🗺️ Tourism Experience Analytics
+# 🌍 Tourism Experience Analytics — Streamlit App
 
-This repository contains the implementation of the **Tourism Experience Analytics** project, focused on enhancing user experiences in the tourism domain through data-driven techniques.
+## 📌 Overview
+This project is an interactive **Streamlit application** that analyzes a tourism dataset and provides:
+- **Exploratory Data Analysis (EDA)** with charts and insights
+- **Regression** (predict tourist ratings)
+- **Classification** (predict visit modes)
+- **Recommendation system** (tourist attraction suggestions using SVD or popularity-based fallback)
 
----
-
-## 📌 Objectives
-
-- **Regression**: Predict user ratings for tourist attractions.
-- **Classification**: Predict visit modes (e.g., Family, Friends, Business).
-- **Recommendation System**: Suggest attractions based on preferences and history.
-
----
-
-## 🧩 Dataset Details
-
-The project uses structured datasets with the following key components:
-
-- **Transaction Data**: User ratings and visit details.
-- **User Data**: Demographic information.
-- **Attraction Data**: Types and locations.
-- **Supporting Tables**: Region, Continent, Visit Mode, Attraction Type.
-
----
-
-## 🧠 Key Technologies
-
-- **Python**
-- **Pandas, NumPy, Scikit-learn**
-- **LightGBM/XGBoost**
-- **Matplotlib, Seaborn**
-- **Streamlit** for web app deployment
-
----
-
-## 🔍 Project Workflow
-
-1. **Data Cleaning & Preprocessing**
-   - Handle missing values, duplicates
-   - Feature encoding and normalization
-
-2. **EDA**
-   - Visual insights into user behavior and travel patterns
-
-3. **Modeling**
-   - Regression: Predict attraction ratings
-   - Classification: Predict visit mode
-   - Recommendation: Collaborative filtering
-
-4. **Evaluation**
-   - Regression: R² Score, RMSE
-   - Classification: Accuracy, F1-score
-   - Recommendation: MAP, RMSE
-
-5. **Deployment**
-   - Streamlit app for user inputs and real-time predictions
-
----
-
-## 🚀 How to Use
-
+## ⚙️ Installation
+Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tourism-experience-analytics.git
-cd tourism-experience-analytics
+git clone https://github.com/AishuS1812/Tourism_Experience_Analytics.git
+cd Tourism_Experience_Analytics
+##Install dependencies:
 pip install -r requirements.txt
-streamlit run app.py
+##▶️ Usage
+##Run the app locally:
+streamlit run Tourism_Analysis_app.py
